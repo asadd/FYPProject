@@ -18,16 +18,20 @@ background: brown;
 }
 li ul {
    display:none;
-position:absolute;
+position:absolute; 
+
 }
  li:hover ul{
     display:block; 
     background:brown;
-height:auto; width:200px;
+height:auto; width:auto;
 }
 li ul li{
     clear:both;
 border-style:none;}
+
+
+
 
 </style>
 </head>
@@ -76,6 +80,7 @@ border-style:none;}
         </ul>
 </div>
         </center>
+&copy; asdadadasdadadadasd;
 </body>
 </html>
 

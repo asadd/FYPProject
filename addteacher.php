@@ -15,10 +15,11 @@ $subjectthr=$_POST['teachsubthree'];
 $subjectfour=$_POST['teachsubfour'];
 $subjectfive=$_POST['teachsubfive'];
 $deptt=$_POST['deptt'];
+$campus=$_POST['campus'];
 
 $pass=rand_password(15);
 
-$query = "INSERT INTO teacher VALUES ('$nam','$pass','$fatname','$cnic','$skil','$skill','$skills','$qualification','$subjecton','$subjectto','$subjectthr','$subjectfour','$subjectfive','$deptt')";
+$query = "INSERT INTO teacher VALUES ('$nam','$pass','$fatname','$cnic','$skil','$skill','$skills','$qualification','$subjecton','$subjectto','$subjectthr','$subjectfour','$subjectfive','$deptt','$campus')";
  $db->exec($query);
 
 

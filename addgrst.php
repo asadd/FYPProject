@@ -11,6 +11,11 @@ and open the template in the editor.
     </head>
     
     <body bgcolor="grey">
+        <?hp
+include_once 'Database.php';;
+        
+        
+        ?>
         <img src="logofypp.jpg" height="300" width="1350">
         <center> <table border="5">
         <form action="adgrst.php" method="POST">

@@ -27,6 +27,7 @@ and open the template in the editor.
        <tr><td>Teaching Subject4: <td> <input type="text" name="teachsubfour" value=""> </td></tr> 
        <tr><td>Teaching Subject5: <td> <input type="text" name="teachsubfive" value=""> </td></tr>
        <tr><td>Department Name: <td> <input type="text" name="deptt" value=""> </td></tr>
+       <tr><td>Campus Name: <td> <input type="text" name="campus" value=""> </td></tr>
        <tr><td><input type="submit" value ="Add" ></td>
         <td><input type="reset" value ="Cancel" ></td></tr>
         </table>

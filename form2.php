@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+
+
+<?php
+        include_once'Database.php';
+        //include_once 'courseevaluation.php';
+        
+        $deptt = $_GET['deptt'];
+        $campus = $_GET['campus'];
+        
+        echo ''.$deptt;
+        
+        ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -7,7 +19,9 @@
         </title>
     </head>
     <body>
+            
         <form action="formtwo.php" method="POST">
+        
         <center> Faculty Course Review</center>
         <p>
             for completion by the course instructor and transmission to head of department

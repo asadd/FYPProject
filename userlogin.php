@@ -16,9 +16,11 @@ $result1=$result->fetch();
         $sub1=$result1['subone'];
         $sub2=$result1['subtwo'];
         $sub3=$result1['subthree'];
-        $sub4=$result1['subjfour'];
+        $sub4=$result1['subfour'];
         $sub5=$result1['subfive'];
-        $deptrt=$result1['department'];
+        $deptrt=$result1['deptt'];
+        $campus=$result1['campus'];
+        
 #admin login 
         $query1="select name , pasword from admin where name = '$user' AND pasword='$pwrd'";
 
@@ -32,9 +34,10 @@ $query2="select * from graduatingstudent where name='$user' AND password='$pwrd'
    
    $deptt=$resulttt1['department'];
    $campus=$resulttt1['campus'];
+   
 if (($user==$result1['name']) && ($pwrd==$result1['pasword']))
 {
-    header('location:courseevaluation.php?sub1='.$sub1.  '&sub2='.$sub2. '&sub3=' .$sub3. '&sub4=' .$sub4. '&sub5=' .$sub5. '&deptt=' .$deptrt.'');
+    header('location:courseevaluation.php?sub1='.$sub1.  '&sub2='.$sub2. '&sub3=' .$sub3. '&sub4=' .$sub4. '&sub5=' .$sub5. '&deptt=' .$deptrt. '&campus=' .$campus. '');
     //echo ''.$_SESSION['username'];
     
 }
@@ -51,7 +54,9 @@ elseif ($user==$resultt1['name'] && $pwrd==$resultt1['pasword'])
 }
  else {
     
-     echo lkalkdalksd;
+     echo $result1['name'];
+     echo ''.$result1['pasword'];
+     echo ''.lkalkdalksd;
 }
    
 

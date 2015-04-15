@@ -5,17 +5,15 @@ $deptt=$_POST['deptt'];
 $campus=$_POST['campus'];
 
 
-$query="select * from graduating where department='$deptt' AND campus='$campus'";
+$query="select * from research where department='$deptt' AND campus='$campus'";
 $result=$db->query($query);
 $result1=$result->fetch();
  $a=$result1['studentnumber'];
 $b=$result1['department'];
 $c=$result1['campus'];
-$ech="please enter the number of student";
 if ($a=="" || $b=="" || $c=="")
 {
-    //echo ''."please add number of students then click on generate option";
-    header("location:addgrst.php?ech=' $ech '");
+    echo ''."please add number of students then click on generate option";
     //echo "<input type= "button" value="submit" > ";
 }
  for ($i=1;$i<=$a;$i++)
@@ -29,3 +27,4 @@ if ($a=="" || $b=="" || $c=="")
      echo ''.$pass."</br>";
  }
  ?>
+
