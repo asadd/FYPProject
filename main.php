@@ -36,8 +36,7 @@ border-style:none;}
     <center>
 <div id="horizontalmenu">
         <ul> <li> Course Review SubSystem
-                <ul> <li><a href
-                            ="Adduser.php">Add Teacher</a></li> <li><a href="deleteuser.php">Delete Teacher</a></li> <li><a href="updateuser.php">Update teacher Info </a></li> <li><a href="coursereport.php">Generate Report</a></li> </ul>
+                <ul> <li><a href="Adduser.php">Add Teacher</a></li> <li><a href="deleteuser.php">Delete Teacher</a></li> <li><a href="updateuser.php">Update teacher Info </a></li> <li><a href="coursereport.php">Generate Report</a></li> </ul>
             
             </li>
             <li>
@@ -52,7 +51,7 @@ border-style:none;}
             
             <li>
             Faculty Survey SubSystem
-                <ul> <li><a href="aaduser.php">add user</a></li> <li><a href="generatpass.php">generate password </a></li> <li><a href="viewrepot.php">view report</a></li> </ul>
+                <ul> <li><a href="viewdata.php">View Data</a></li>  </ul>
             </li>
             </br></br></br></br></br></br></br>
             <li>

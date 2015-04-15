@@ -753,20 +753,8 @@
                </tr>
                  
                
-               <input type="text" name="deptt" value="
-                      <?php 
-        $deptt=$_GET['deptt'];
-        echo ''.$deptt;
-        ?>
-                   
-                      " hidden="true">
-                <input type="text" name="campus" value="
-                      <?php 
-        $campus=$_GET['campus'];
-        echo ''.$campus;
-        ?>
-                   
-                      " hidden="true">
+               <input type="text" name="deptt" value="<?php echo $deptt; ?>" hidden="true">
+                <input type="text" name="campus" value="<?php echo ''.$campus; ?>" hidden="true">
                
              </table>
              </br>

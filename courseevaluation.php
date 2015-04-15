@@ -23,7 +23,7 @@ and open the template in the editor.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
     </head>
-    <body>
+    <body bgcolor="grey">
         <img src="logofypp.jpg" height="300" width="1350">
         <a href="form2.php">
         <?php

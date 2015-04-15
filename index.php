@@ -34,22 +34,13 @@ padding: 2px 6px
                         
        
             <form action ="userLogin.php" method="POST">
-            <adminfieldset>
                 <tr><td> Name:</td><td><input type ="text" name="user" value=""></td></tr>
                 <tr><td> Password:</td><td><input type="password" name="pwrd" value=""></td></tr>
                <tr><td> <input type="submit" value="Login" /> </td>
                <td> <input type="reset" value="Cancel" /></td></tr>
                
             </table>
-                    </center>
                     
-                </form>
-            </adminfieldset>
-                <adminfieldset>
-            
-                    </center>
-                    
-                </form>
             </adminfieldset>
     </body>
 </html>

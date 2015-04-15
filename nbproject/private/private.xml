@@ -14,22 +14,28 @@
         <group>
             <file>file:/C:/xampp/htdocs/FYPProject/index.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/adduser.php</file>
+            <file>file:/C:/xampp/htdocs/FYPProject/addrest.php</file>
+            <file>file:/C:/xampp/htdocs/FYPProject/adrest.php</file>
+            <file>file:/C:/xampp/htdocs/FYPProject/gengradpaswordtwo.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/formthree.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/Database.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/coursereportt.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/gradgenreport.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/form2.php</file>
+            <file>file:/C:/xampp/htdocs/FYPProject/resgenpasword.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/updateuserr.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/userlogin.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/updateuser.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/main.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/courseevaluation.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/formtwo.php</file>
+            <file>file:/C:/xampp/htdocs/FYPProject/adgrst.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/addteacher.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/form3.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/coursereport.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/gradgenreportt.php</file>
             <file>file:/C:/xampp/htdocs/FYPProject/addgrst.php</file>
+            <file>file:/C:/xampp/htdocs/FYPProject/gengradpasword.php</file>
         </group>
     </open-files>
 </project-private>
